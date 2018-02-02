@@ -1,0 +1,112 @@
+<div class="page" id="[PAGE_ID]" style="display: none">
+	<div class="cell">
+		<div class="row">
+			<div class="col-md-12">
+				<p style="margin-left: auto;margin-right: auto;text-align: center;"><b>Please review the image below.</b></p>
+		
+				<div class="img_ctnr" style="height: 400px;width: 400px;margin-bottom: 15px;margin: 0 auto;"><img alt="image_url" src="${image_url_[PROMPT_ID]}" /></div>
+			</div>
+			
+			<div class="col-md-12">
+			<div class="form-group"><label class="group-label" style="margin-bottom: 15px;">Rate how well each arrow points at the target object.</label>
+		
+			<div class="prompt">
+				<label class="arrow_label">
+				Red: 
+				</label>
+				<div class="checkboxgroup">
+					<label>Very Badly</label>
+					<input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_red[PROMPT_ID]" required="" type="radio" value="1"/>
+				</div>
+			  
+				<div class="checkboxgroup">
+					<label>Badly</label>
+					<input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_red[PROMPT_ID]" required="" type="radio" value="2"/>
+				</div>
+				
+				<div class="checkboxgroup">
+					<label>Neutral</label>
+					<input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_red[PROMPT_ID]" required="" type="radio" value="3"/>
+				</div>
+				
+				<div class="checkboxgroup">
+					<label>Well</label>
+					<input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_red[PROMPT_ID]" required="" type="radio" value="4"/>
+				</div>
+				
+				<div class="checkboxgroup">
+					<label>Very Well</label>
+					<input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_red[PROMPT_ID]" required="" type="radio" value="5"/>
+				</div>
+			</div>  
+		
+			<div class="prompt">
+				<label class="arrow_label">
+				Blue: 
+				</label>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_blue[PROMPT_ID]" required="" type="radio" value="1"/>    
+				</div>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_blue[PROMPT_ID]" required="" type="radio" value="2"/>    
+				</div>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_blue[PROMPT_ID]" required="" type="radio" value="3"/>    
+				</div>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_blue[PROMPT_ID]" required="" type="radio" value="4"/>    
+				</div>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_blue[PROMPT_ID]" required="" type="radio" value="5"/>    
+				</div>
+			  </div>
+		  
+		  <div class="prompt">
+				<label class="arrow_label">
+				  Green: 
+				</label>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_green[PROMPT_ID]" required="" type="radio" value="1"/>    
+				</div>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_green[PROMPT_ID]" required="" type="radio" value="2"/>    
+				</div>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_green[PROMPT_ID]" required="" type="radio" value="3"/>    
+				</div>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_green[PROMPT_ID]" required="" type="radio" value="4"/>    
+				</div>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_green[PROMPT_ID]" required="" type="radio" value="5"/>    
+				</div>
+			  </div>
+		  
+		  <div class="prompt">
+				<label class="arrow_label">
+				  Purple: 
+				</label>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_purple[PROMPT_ID]" required="" type="radio" value="1"/>    
+				</div>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_purple[PROMPT_ID]" required="" type="radio" value="2"/>    
+				</div>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_purple[PROMPT_ID]" required="" type="radio" value="3"/>    
+				</div>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_purple[PROMPT_ID]" required="" type="radio" value="4"/>    
+				</div>
+				<div class="checkboxgroup">
+				  <input autocomplete="off" class="reqinp[PROMPT_ID]" name="radio_purple[PROMPT_ID]" required="" type="radio" value="5"/>    
+				</div>
+			  </div>
+		  
+		  
+		  	<br>
+			<label for="Comment[PROMPT_ID]">Write a brief comment about how you rated the arrows:&nbsp;</label> <input class="comment reqcomm[PROMPT_ID]" autocomplete="off" name="Comment[PROMPT_ID]" type="input" required="" value="" /></div>
+			<input name="Continue[PROMPT_ID]" onclick="validatePage(event, [PROMPT_ID])" type="button" value="Continue" /><label for="Continue[PROMPT_ID]" style="margin-left: 15px">[PROMPT_ID] of 4</label></div>
+		</div>
+	</div>
+</div>
